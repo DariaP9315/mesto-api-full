@@ -32,10 +32,10 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cookieParser());
 app.use(cors({
   origin: [
-    'https://mesto.dizhukova.nomoredomains.club',
-    'https://api.mesto.dizhukova.nomoredomains.club',
-    'http://mesto.dizhukova.nomoredomains.club',
-    'http://api.mesto.dizhukova.nomoredomains.club',
+    'https://mesto-krasivoe.nomoredomains.club',
+    'https://api.mesto-krasivoe.nomoredomains.club',
+    'http://mesto-krasivoe.nomoredomains.club',
+    'http://api.mesto-krasivoe.nomoredomains.club',
     'http://localhost:3000',
   ],
   methods: ['GET', 'HEAD', 'PUT', 'PATCH', 'POST', 'DELETE'],
